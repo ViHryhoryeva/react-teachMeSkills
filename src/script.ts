@@ -125,7 +125,7 @@ const getGenreFilms = (arr: TFilms[]): string[] =>
 
 // 2. Собрать в массив всех актеров всех фильмов (без повторения)
 const arrayAllActors = (arr: TFilms[]): string[] =>
-    arr.reduce((acc, actors: ) => {
+    arr.reduce((acc, actors) => {
     acc.indexOf(actors) === -1 && acc.push(actors);
     return acc;
   } , []);
