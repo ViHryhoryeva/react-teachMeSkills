@@ -83,3 +83,16 @@ button:focus-visible {
 .input:disabled {
     background-color: #bcebc8;
 }
+.app {
+    display: block;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    row-gap: 15px; */
+    
+}
+
+@media only all and (max-width: 768px) {
+    .app {
+        grid-template-columns: 1fr; 
+    }
+}
